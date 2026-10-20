@@ -1,0 +1,6 @@
+path: .
+train: train/Images
+val: val/Images
+nc: 1
+names:
+  0: Platelet

@@ -1,0 +1,21 @@
+path: .
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 12
+
+names:
+  0: Normal cell
+  1: Macrocyte
+  2: Microcyte
+  3: Spherocyte
+  4: Target cell
+  5: Stomatocyte
+  6: Ovalocyte
+  7: Teardrop
+  8: Burr cell
+  9: Schistocyte
+  10: uncategorised
+  11: Hypochromia
