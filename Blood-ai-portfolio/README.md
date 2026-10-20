@@ -50,9 +50,13 @@ I am continuing to build my programming and model-development skills. Some workf
 - Saved model and evaluation artifacts, including the `best.pt` checkpoint and available plots/reports.
 - **Best recorded validation mAP@50: 97.95% at Epoch 34.** This is a validation result, not a result from an independent test set; it should not be interpreted as a test score.
 
-**Project files:** [Platelet detection project](./Platelet_Detection_Project/) · [Model package and evaluation artifacts](./Platelet_Detection_Project/platelets_model_package/)
+**Project files:** [Platelet dataset project](./Platelets_Dataset_Project/) · [Project README](./Platelets_Dataset_Project/README.txt) · [Model package and evaluation artifacts](./Platelets_Dataset_Project/platelets_model_package/)
 
-![Platelet detection results](./Screenshots/Platelet_Results.png)
+![Platelet dataset sample](./showcase-images/Platelets_Sample/Platelets_Dataset.png)
+
+![Platelet training results](./Platelets_Dataset_Project/platelets_model_package/results.png)
+
+![Platelet confusion matrix](./Platelets_Dataset_Project/platelets_model_package/confusion_matrix.png)
 
 ### 3. *Plasmodium falciparum* Dataset Preparation
 
@@ -64,8 +68,9 @@ I am continuing to build my programming and model-development skills. Some workf
 
 The complete malaria dataset and model weights are not bundled with this portfolio at present.
 
-![Malaria annotation example](./Screenshots/Malaria_Annotation.png)
+**Project files:** [Malaria dataset project](./Malaria_Falciparum_Dataset_Project/) · [Project README](./Malaria_Falciparum_Dataset_Project/README.md) · [Dataset configuration](./Malaria_Falciparum_Dataset_Project/data.yaml)
 
+![Malaria dataset sample](./showcase-images/Malaria_Falciparum_Sample/Malaria_Falciparum_Dataset.png)
 ## Annotation Quality Principles
 
 Across my dataset projects, I focus on boxes that closely fit one target object, clear labels, review of box coordinates, and visual/manual checking. I also check for boxes cut off by image edges and other obvious annotation issues where relevant to the project.
