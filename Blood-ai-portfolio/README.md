@@ -36,11 +36,10 @@ I am continuing to build my programming and model-development skills. Some workf
 - Created and corrected bounding-box coordinates with code assistance, then manually and visually reviewed annotations.
 - Organized image and label files into training, validation, and test splits and prepared a `data.yaml` file.
 
-**Project files:** [RBC dataset project](./RBC_Dataset_Project/RBC_Blood_Cells/) · [Project README](./RBC_Dataset_Project/RBC_Blood_Cells/README.md) · [Final report](./RBC_Dataset_Project/RBC_Blood_Cells/FINAL_REPORT.md)
 
-![RBC dataset overview](./Screenshots/RBC_Dataset.png)
+**Project files:** [RBC dataset project](./RBC_Dataset_Project/) · [Project README](./RBC_Dataset_Project/README.md) · [Dataset configuration](./RBC_Dataset_Project/data.yaml)
 
-![RBC annotation example](./Screenshots/RBC_Annotation.png)
+![RBC dataset overview](./showcase-images/RBC_Sample/RBC_Dataset.png)
 
 ### 2. Platelet Detection with YOLO
 
