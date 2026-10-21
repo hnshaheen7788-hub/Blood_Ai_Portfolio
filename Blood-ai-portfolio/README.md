@@ -30,12 +30,11 @@ I am continuing to build my programming and model-development skills. Some workf
 
 ### 1. RBC Dataset Preparation and Annotation
 
-**Status: Data preparation and review completed; no model training claimed for this project.**
+**Status:** Data preparation and review completed; no model training claimed for this project.
 
 - Prepared and reviewed a red-blood-cell image dataset with 12 categories supplied by the original dataset.
 - Created and corrected bounding-box coordinates with code assistance, then manually and visually reviewed annotations.
 - Organized image and label files into training, validation, and test splits and prepared a `data.yaml` file.
-
 
 **Project files:** [RBC dataset project](./RBC_Dataset_Project/) · [Project README](./RBC_Dataset_Project/README.md) · [Dataset configuration](./RBC_Dataset_Project/data.yaml)
 
@@ -43,7 +42,7 @@ I am continuing to build my programming and model-development skills. Some workf
 
 ### 2. Platelet Detection with YOLO
 
-**Status: Data preparation and review completed; YOLO training performed.**
+**Status:** Data preparation and review completed; YOLO training performed.
 
 - Prepared and reviewed platelet images, labels, and bounding boxes.
 - Ran YOLO training experiments with the Ultralytics library and reviewed training/evaluation outputs.
@@ -60,7 +59,7 @@ I am continuing to build my programming and model-development skills. Some workf
 
 ### 3. *Plasmodium falciparum* Dataset Preparation
 
-**Status: Data preparation and review completed; no trained malaria model is presented in this portfolio.**
+**Status:** Data preparation and review completed; no trained malaria model is presented in this portfolio.
 
 - Prepared and reviewed malaria-related images, label files, box coordinates, and annotations.
 - Organized the working dataset into training, validation, and test splits.
@@ -71,6 +70,7 @@ The complete malaria dataset and model weights are not bundled with this portfol
 **Project files:** [Malaria dataset project](./Malaria_Falciparum_Dataset_Project/) · [Project README](./Malaria_Falciparum_Dataset_Project/README.md) · [Dataset configuration](./Malaria_Falciparum_Dataset_Project/data.yaml)
 
 ![Malaria dataset sample](./showcase-images/Malaria_Falciparum_Sample/Malaria_Falciparum_Dataset.png)
+
 ## Annotation Quality Principles
 
 Across my dataset projects, I focus on boxes that closely fit one target object, clear labels, review of box coordinates, and visual/manual checking. I also check for boxes cut off by image edges and other obvious annotation issues where relevant to the project.
