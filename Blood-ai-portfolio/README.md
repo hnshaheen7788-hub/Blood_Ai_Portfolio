@@ -26,7 +26,7 @@ My goal is to combine my laboratory background with technical skills to contribu
 
 I am continuing to build my programming and model-development skills. Some workflows were completed with code assistance, and I describe each project below according to the work completed.
 
-## Projects
+## Projectsس
 
 ### 1. RBC Dataset Preparation and Annotation
 
